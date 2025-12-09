@@ -1,0 +1,1 @@
+export const DB_NAME = 'test_node_api_db';

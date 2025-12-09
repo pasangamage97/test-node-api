@@ -1,0 +1,27 @@
+{
+  "name": "test-node-api",
+  "version": "1.0.0",
+  "description": "this is for recall nodejs express web api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasangamage97/test-node-api.git"
+  },
+  "author": "Pasan Gamage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasangamage97/test-node-api/issues"
+  },
+  "homepage": "https://github.com/pasangamage97/test-node-api#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^8.20.2",
+    "nodemon": "^3.1.11"
+  }
+}
